@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+alembic
+pydantic-settings
+passlib[bcrypt]
+python-jose[cryptography]
+bcrypt
+celery
+redis
+docker
+pywin32; sys_platform == "win32"
+pytest
+httpx
+google-genai
+apscheduler>=3.10,<4
+fakeredis
+prometheus-fastapi-instrumentator>=7.0.0,<8
+python-multipart>=0.0.9
